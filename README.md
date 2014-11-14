@@ -6,7 +6,6 @@
 We will use Python 3, installed with Anaconda. To get that on your laptop:
 
 - Download this file: http://repo.continuum.io/anaconda3/Anaconda3-2.1.0-MacOSX-x86_64.sh
-   You want the `.sh`, *not* the `.pkg` file. Believe me.
    
 - In the shell, switch your working directory to the one containing this file
   (typically `~/Downloads`) and run:
