@@ -16,7 +16,8 @@ You will be asked to press `ENTER` to continue, which will drop you into a
 buffer containing the license. Type `q` to exit that buffer, and then enter
 `yes` to continue. The proposed installation location that should then appear
 should be something like: `/Users/arokem/anaconda3`. Accept that, and wait for
-the installation to complete.
+the installation to complete. Once it is complete, you will need to open a new
+terminal window to use Anaconda. 
 
 Anaconda should give you the basic tools for scientific computing, including
 `ipython`/`numpy`/`scipy`/`matplotlib` and many more. 
