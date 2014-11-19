@@ -83,8 +83,16 @@ sign right...
 
 ## Using `nose` to automate tests:
 
-The `nosetests` application seeks files named `test_*.py` and runs every
-function in these files that is defined as `def test_*()`. If all these
-functions run with no error, and no failed assertions then reports back 
+The `nosetests` application seeks files named `test_*.py` in the file paths
+below the pwd, and runs every function in these files that is defined as `def
+test_*()`. If all these functions run with no error, and no failed assertions,
+then nose reports back with the number of functions that have been
+run. Otherwise, errors and assertion failures are reported.
+
+Let's examine the simple module `circle.py` and its test file `test_circle.py`
+as an example of this.
+
+## 
+
 
 
