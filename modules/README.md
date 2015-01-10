@@ -26,12 +26,12 @@ This takes advantage of the built-in machinery in the distutils library (a stdli
 
 If your code contains packages, you could write a `setup.py` that looks like this:
 
-from distutils.core import setup
-setup(name='foo',
-      packages = ['foo', 'foo.bar'],
-      package_dir = {'foo':'.', 'foo.bar': './bar'},
-      package_data={'foo': ['./*.py'],
-                              'foo.bar':[ './bar/*.py']})
+    from distutils.core import setup
+    setup(name='foo',
+          packages = ['foo', 'foo.bar'],
+          package_dir = {'foo':'.', 'foo.bar': './bar'},
+          package_data={'foo': ['./*.py'],
+                                   'foo.bar':[ './bar/*.py']})
 
 This tells distutils about the structure of your directories, and how you would like to organize them into modules and packages. 
 
