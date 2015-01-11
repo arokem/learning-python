@@ -16,3 +16,6 @@ The line profiler can be installed:
 Memory profiler can be installed with:
 
     pip install memory_profiler
+
+
+http://nbviewer.ipython.org/gist/arokem/f91d436af3f0d3084af4
