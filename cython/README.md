@@ -1,3 +1,6 @@
+These materials are heavily based on an excellent scipy tutorial by Kurt Smith 
+(Enthought). The videos for this tutorial are [here](https://www.youtube.com/watch?v=JKCjsRDffXo).
+
 ## Cython :
 
 Writing code in python is easy: because it is dynamically typed, we don't have
